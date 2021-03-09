@@ -3,17 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18037EA7261E1BA5177E091D /* Pods_MALCOEXAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC32C0769D9C1D705AAE5B1E /* Pods_MALCOEXAM.framework */; };
+		921B388E525132FCFC7776F3 /* Pods_MALCOEXAM_MALCOEXAMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A12789BC503513DBDFBAEDD /* Pods_MALCOEXAM_MALCOEXAMUITests.framework */; };
 		B2F49F1D25CBE5AF00389AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F1C25CBE5AF00389AF3 /* AppDelegate.swift */; };
-		B2F49F1F25CBE5AF00389AF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F1E25CBE5AF00389AF3 /* SceneDelegate.swift */; };
 		B2F49F2125CBE5AF00389AF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F2025CBE5AF00389AF3 /* ViewController.swift */; };
 		B2F49F2425CBE5AF00389AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F49F2225CBE5AF00389AF3 /* Main.storyboard */; };
 		B2F49F2625CBE5B200389AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F49F2525CBE5B200389AF3 /* Assets.xcassets */; };
 		B2F49F2925CBE5B200389AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F49F2725CBE5B200389AF3 /* LaunchScreen.storyboard */; };
 		B2F49F3425CBE5B200389AF3 /* MALCOEXAMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F3325CBE5B200389AF3 /* MALCOEXAMUITests.swift */; };
+		B2F49F4425CBEC5100389AF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F4325CBEC5100389AF3 /* LoginViewController.swift */; };
+		B2F49F4625CBEC5E00389AF3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F4525CBEC5E00389AF3 /* SignUpViewController.swift */; };
+		B2F49F4925CBECE900389AF3 /* Xelements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F4825CBECE900389AF3 /* Xelements.swift */; };
+		B2F49F4D25CBEF1200389AF3 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F4A25CBEF1200389AF3 /* Requestable.swift */; };
+		B2F49F4E25CBEF1200389AF3 /* RequestParamters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F4B25CBEF1200389AF3 /* RequestParamters.swift */; };
+		B2F49F4F25CBEF1200389AF3 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F4C25CBEF1200389AF3 /* ServiceManager.swift */; };
+		B2F49F5425CBEF1B00389AF3 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F5025CBEF1B00389AF3 /* Api.swift */; };
+		B2F49F5525CBEF1B00389AF3 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F5125CBEF1B00389AF3 /* CustomError.swift */; };
+		B2F49F5625CBEF1B00389AF3 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F5225CBEF1B00389AF3 /* Keys.swift */; };
+		B2F49F5725CBEF1B00389AF3 /* AlamofireRequestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F5325CBEF1B00389AF3 /* AlamofireRequestExtensions.swift */; };
+		B2F49F5A25CBEF3200389AF3 /* AuthenticationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F5925CBEF3100389AF3 /* AuthenticationApi.swift */; };
+		B2F49F5E25CBF06100389AF3 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F5D25CBF06100389AF3 /* AuthenticationViewModel.swift */; };
+		B2F49F6025CBF1C000389AF3 /* ValidationManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F5F25CBF1C000389AF3 /* ValidationManger.swift */; };
+		B2F49F6425CC05D800389AF3 /* AuthRequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F6325CC05D800389AF3 /* AuthRequestParameters.swift */; };
+		B2F49F6625CC064C00389AF3 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F6525CC064C00389AF3 /* AuthResponse.swift */; };
+		B2F49F6925CC08F900389AF3 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F6825CC08F900389AF3 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		236D78CD9CC43D4B6D2925AE /* Pods-MALCOEXAM-MALCOEXAMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALCOEXAM-MALCOEXAMUITests.debug.xcconfig"; path = "Target Support Files/Pods-MALCOEXAM-MALCOEXAMUITests/Pods-MALCOEXAM-MALCOEXAMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A6853921516D32970A0AC5A /* Pods-MALCOEXAM-MALCOEXAMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALCOEXAM-MALCOEXAMUITests.release.xcconfig"; path = "Target Support Files/Pods-MALCOEXAM-MALCOEXAMUITests/Pods-MALCOEXAM-MALCOEXAMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A12789BC503513DBDFBAEDD /* Pods_MALCOEXAM_MALCOEXAMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALCOEXAM_MALCOEXAMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8972F76C895B3590FFA4962E /* Pods-MALCOEXAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALCOEXAM.release.xcconfig"; path = "Target Support Files/Pods-MALCOEXAM/Pods-MALCOEXAM.release.xcconfig"; sourceTree = "<group>"; };
+		AC32C0769D9C1D705AAE5B1E /* Pods_MALCOEXAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALCOEXAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F49F1925CBE5AF00389AF3 /* MALCOEXAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MALCOEXAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F49F1C25CBE5AF00389AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2F49F1E25CBE5AF00389AF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B2F49F2025CBE5AF00389AF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2F49F2325CBE5AF00389AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2F49F2525CBE5B200389AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +59,23 @@
 		B2F49F2F25CBE5B200389AF3 /* MALCOEXAMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MALCOEXAMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F49F3325CBE5B200389AF3 /* MALCOEXAMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALCOEXAMUITests.swift; sourceTree = "<group>"; };
 		B2F49F3525CBE5B200389AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F49F4325CBEC5100389AF3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B2F49F4525CBEC5E00389AF3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B2F49F4825CBECE900389AF3 /* Xelements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Xelements.swift; sourceTree = "<group>"; };
+		B2F49F4A25CBEF1200389AF3 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		B2F49F4B25CBEF1200389AF3 /* RequestParamters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestParamters.swift; sourceTree = "<group>"; };
+		B2F49F4C25CBEF1200389AF3 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		B2F49F5025CBEF1B00389AF3 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		B2F49F5125CBEF1B00389AF3 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		B2F49F5225CBEF1B00389AF3 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		B2F49F5325CBEF1B00389AF3 /* AlamofireRequestExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRequestExtensions.swift; sourceTree = "<group>"; };
+		B2F49F5925CBEF3100389AF3 /* AuthenticationApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationApi.swift; sourceTree = "<group>"; };
+		B2F49F5D25CBF06100389AF3 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		B2F49F5F25CBF1C000389AF3 /* ValidationManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationManger.swift; sourceTree = "<group>"; };
+		B2F49F6325CC05D800389AF3 /* AuthRequestParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestParameters.swift; sourceTree = "<group>"; };
+		B2F49F6525CC064C00389AF3 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		B2F49F6825CC08F900389AF3 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		FC1D4ABD7805D22E83D85BCB /* Pods-MALCOEXAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALCOEXAM.debug.xcconfig"; path = "Target Support Files/Pods-MALCOEXAM/Pods-MALCOEXAM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18037EA7261E1BA5177E091D /* Pods_MALCOEXAM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +91,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921B388E525132FCFC7776F3 /* Pods_MALCOEXAM_MALCOEXAMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DAB7722DEFA2FD308A6D887 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D4ABD7805D22E83D85BCB /* Pods-MALCOEXAM.debug.xcconfig */,
+				8972F76C895B3590FFA4962E /* Pods-MALCOEXAM.release.xcconfig */,
+				236D78CD9CC43D4B6D2925AE /* Pods-MALCOEXAM-MALCOEXAMUITests.debug.xcconfig */,
+				3A6853921516D32970A0AC5A /* Pods-MALCOEXAM-MALCOEXAMUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		67B22EA13CB3C4B2E270F427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC32C0769D9C1D705AAE5B1E /* Pods_MALCOEXAM.framework */,
+				5A12789BC503513DBDFBAEDD /* Pods_MALCOEXAM_MALCOEXAMUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2F49F1025CBE5AF00389AF3 = {
 			isa = PBXGroup;
 			children = (
 				B2F49F1B25CBE5AF00389AF3 /* MALCOEXAM */,
 				B2F49F3225CBE5B200389AF3 /* MALCOEXAMUITests */,
 				B2F49F1A25CBE5AF00389AF3 /* Products */,
+				1DAB7722DEFA2FD308A6D887 /* Pods */,
+				67B22EA13CB3C4B2E270F427 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +141,10 @@
 		B2F49F1B25CBE5AF00389AF3 /* MALCOEXAM */ = {
 			isa = PBXGroup;
 			children = (
-				B2F49F1C25CBE5AF00389AF3 /* AppDelegate.swift */,
-				B2F49F1E25CBE5AF00389AF3 /* SceneDelegate.swift */,
-				B2F49F2025CBE5AF00389AF3 /* ViewController.swift */,
-				B2F49F2225CBE5AF00389AF3 /* Main.storyboard */,
+				B2F49F4725CBECE100389AF3 /* Helper */,
+				B2F49F4225CBEB6300389AF3 /* NetWork */,
+				B2F49F3F25CBEA1000389AF3 /* Auth */,
+				B2F49F3E25CBEA0100389AF3 /* App */,
 				B2F49F2525CBE5B200389AF3 /* Assets.xcassets */,
 				B2F49F2725CBE5B200389AF3 /* LaunchScreen.storyboard */,
 				B2F49F2A25CBE5B200389AF3 /* Info.plist */,
@@ -99,6 +161,101 @@
 			path = MALCOEXAMUITests;
 			sourceTree = "<group>";
 		};
+		B2F49F3E25CBEA0100389AF3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B2F49F1C25CBE5AF00389AF3 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B2F49F3F25CBEA1000389AF3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B2F49F5C25CBF01200389AF3 /* View Model */,
+				B2F49F5B25CBF00600389AF3 /* Model */,
+				B2F49F4125CBEA2A00389AF3 /* View */,
+				B2F49F4025CBEA1A00389AF3 /* View Controller */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B2F49F4025CBEA1A00389AF3 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2F49F2025CBE5AF00389AF3 /* ViewController.swift */,
+				B2F49F4325CBEC5100389AF3 /* LoginViewController.swift */,
+				B2F49F4525CBEC5E00389AF3 /* SignUpViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		B2F49F4125CBEA2A00389AF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2F49F2225CBE5AF00389AF3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2F49F4225CBEB6300389AF3 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				B2F49F5825CBEF2200389AF3 /* APIs */,
+				B2F49F4A25CBEF1200389AF3 /* Requestable.swift */,
+				B2F49F5325CBEF1B00389AF3 /* AlamofireRequestExtensions.swift */,
+				B2F49F5025CBEF1B00389AF3 /* Api.swift */,
+				B2F49F5125CBEF1B00389AF3 /* CustomError.swift */,
+				B2F49F5225CBEF1B00389AF3 /* Keys.swift */,
+				B2F49F4B25CBEF1200389AF3 /* RequestParamters.swift */,
+				B2F49F4C25CBEF1200389AF3 /* ServiceManager.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		B2F49F4725CBECE100389AF3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B2F49F6725CC08EA00389AF3 /* Extension */,
+				B2F49F4825CBECE900389AF3 /* Xelements.swift */,
+				B2F49F5F25CBF1C000389AF3 /* ValidationManger.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B2F49F5825CBEF2200389AF3 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				B2F49F5925CBEF3100389AF3 /* AuthenticationApi.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		B2F49F5B25CBF00600389AF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2F49F6325CC05D800389AF3 /* AuthRequestParameters.swift */,
+				B2F49F6525CC064C00389AF3 /* AuthResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2F49F5C25CBF01200389AF3 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2F49F5D25CBF06100389AF3 /* AuthenticationViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		B2F49F6725CC08EA00389AF3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B2F49F6825CC08F900389AF3 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2F49F3825CBE5B200389AF3 /* Build configuration list for PBXNativeTarget "MALCOEXAM" */;
 			buildPhases = (
+				DCC8072F16E7539D0C69277E /* [CP] Check Pods Manifest.lock */,
 				B2F49F1525CBE5AF00389AF3 /* Sources */,
 				B2F49F1625CBE5AF00389AF3 /* Frameworks */,
 				B2F49F1725CBE5AF00389AF3 /* Resources */,
+				0876488EFFC68F540EBE06CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2F49F3B25CBE5B200389AF3 /* Build configuration list for PBXNativeTarget "MALCOEXAMUITests" */;
 			buildPhases = (
+				2297C339256962AA4BACA578 /* [CP] Check Pods Manifest.lock */,
 				B2F49F2B25CBE5B200389AF3 /* Sources */,
 				B2F49F2C25CBE5B200389AF3 /* Frameworks */,
 				B2F49F2D25CBE5B200389AF3 /* Resources */,
+				E3340F73AE1986118236F9E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,14 +356,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0876488EFFC68F540EBE06CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MALCOEXAM/Pods-MALCOEXAM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MALCOEXAM/Pods-MALCOEXAM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MALCOEXAM/Pods-MALCOEXAM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2297C339256962AA4BACA578 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MALCOEXAM-MALCOEXAMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC8072F16E7539D0C69277E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MALCOEXAM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3340F73AE1986118236F9E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MALCOEXAM-MALCOEXAMUITests/Pods-MALCOEXAM-MALCOEXAMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MALCOEXAM-MALCOEXAMUITests/Pods-MALCOEXAM-MALCOEXAMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MALCOEXAM-MALCOEXAMUITests/Pods-MALCOEXAM-MALCOEXAMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2F49F1525CBE5AF00389AF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F49F5725CBEF1B00389AF3 /* AlamofireRequestExtensions.swift in Sources */,
+				B2F49F6425CC05D800389AF3 /* AuthRequestParameters.swift in Sources */,
+				B2F49F6925CC08F900389AF3 /* UIViewController.swift in Sources */,
+				B2F49F5425CBEF1B00389AF3 /* Api.swift in Sources */,
+				B2F49F5E25CBF06100389AF3 /* AuthenticationViewModel.swift in Sources */,
+				B2F49F4925CBECE900389AF3 /* Xelements.swift in Sources */,
+				B2F49F4425CBEC5100389AF3 /* LoginViewController.swift in Sources */,
 				B2F49F2125CBE5AF00389AF3 /* ViewController.swift in Sources */,
+				B2F49F5625CBEF1B00389AF3 /* Keys.swift in Sources */,
+				B2F49F4F25CBEF1200389AF3 /* ServiceManager.swift in Sources */,
+				B2F49F5525CBEF1B00389AF3 /* CustomError.swift in Sources */,
+				B2F49F6025CBF1C000389AF3 /* ValidationManger.swift in Sources */,
+				B2F49F4D25CBEF1200389AF3 /* Requestable.swift in Sources */,
+				B2F49F4E25CBEF1200389AF3 /* RequestParamters.swift in Sources */,
+				B2F49F4625CBEC5E00389AF3 /* SignUpViewController.swift in Sources */,
 				B2F49F1D25CBE5AF00389AF3 /* AppDelegate.swift in Sources */,
-				B2F49F1F25CBE5AF00389AF3 /* SceneDelegate.swift in Sources */,
+				B2F49F5A25CBEF3200389AF3 /* AuthenticationApi.swift in Sources */,
+				B2F49F6625CC064C00389AF3 /* AuthResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +617,7 @@
 		};
 		B2F49F3925CBE5B200389AF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1D4ABD7805D22E83D85BCB /* Pods-MALCOEXAM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +636,7 @@
 		};
 		B2F49F3A25CBE5B200389AF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8972F76C895B3590FFA4962E /* Pods-MALCOEXAM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +655,7 @@
 		};
 		B2F49F3C25CBE5B200389AF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236D78CD9CC43D4B6D2925AE /* Pods-MALCOEXAM-MALCOEXAMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +676,7 @@
 		};
 		B2F49F3D25CBE5B200389AF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6853921516D32970A0AC5A /* Pods-MALCOEXAM-MALCOEXAMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

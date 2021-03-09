@@ -9,12 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK:- Life Cycle :-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    //MARK:- go Login VC
+    @IBAction func loginAction(_ sender: Any) {
+        self.goToLoginPage()
+    }
+    
+    //MARK:- go Sign Up VC
+    @IBAction func regitserAction(_ sender: Any) {
+        self.goToSignUp()
+    }
 }
 

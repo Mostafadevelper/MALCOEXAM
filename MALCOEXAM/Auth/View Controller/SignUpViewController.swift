@@ -22,7 +22,6 @@ class SignUpViewController: UIViewController {
         
     }
     
-    
     @IBAction func showPasswordAction(_ sender: Any) {
         passwordTF.isSecureTextEntry = passwordTF.isSecureTextEntry ? false : true
     }

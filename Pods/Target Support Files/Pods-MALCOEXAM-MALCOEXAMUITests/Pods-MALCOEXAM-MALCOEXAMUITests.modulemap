@@ -1,0 +1,6 @@
+framework module Pods_MALCOEXAM_MALCOEXAMUITests {
+  umbrella header "Pods-MALCOEXAM-MALCOEXAMUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

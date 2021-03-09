@@ -25,7 +25,6 @@ extension UIView {
     @IBInspectable var IsCircle : Bool {
         get { return true }
         set { CorenerRaduis = self.frame.width / 2}
-
     }
 }
 
